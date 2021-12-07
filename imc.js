@@ -21,6 +21,6 @@ function calcular(){
         resposta.innerHTML += `<p>Obesidade</p>`
     }
     else{
-        resposta.innerHTML = `Resultado: Dados inválidos`
+        window.alert('Dados inválidos')
     }
 }
